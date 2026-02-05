@@ -1,0 +1,43 @@
+# AI Tarot Reflection System - Enhanced Version
+# Requirements for SCI Paper Evaluation
+
+# ==================== Core Dependencies ====================
+numpy>=1.21.0
+scipy>=1.7.0
+
+# ==================== NLP & ML ====================
+# Sentence-BERT for semantic embeddings
+sentence-transformers>=2.2.0
+
+# Transformers for BERT-based emotion detection
+transformers>=4.25.0
+torch>=1.12.0
+
+# ==================== Vector Search ====================
+# FAISS for efficient similarity search
+# Use faiss-cpu for most systems, faiss-gpu for GPU support
+faiss-cpu>=1.7.0
+# faiss-gpu>=1.7.0  # Uncomment for GPU support
+
+# ==================== Web Framework ====================
+fastapi>=0.95.0
+uvicorn>=0.21.0
+pydantic>=1.10.0
+
+# ==================== Evaluation & Statistics ====================
+scikit-learn>=1.0.0
+pandas>=1.4.0
+
+# ==================== Optional: Visualization ====================
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# ==================== Optional: External APIs ====================
+openai>=1.0.0
+anthropic>=0.5.0
+
+# ==================== Development ====================
+pytest>=7.0.0
+pytest-asyncio>=0.20.0
+black>=22.0.0
+isort>=5.10.0
